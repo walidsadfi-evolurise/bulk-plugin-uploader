@@ -21,9 +21,6 @@ Easily upload, install, and activate multiple WordPress plugins at once via drag
 3. View progress and status for each plugin
 4. Optionally, activate installed plugins later
 
-## Screenshots
-![Bulk Plugin Uploader Screenshot](assets/img/screenshot.png)
-
 ## Internationalization
 All strings are ready for translation. Use .pot/.mo files for localization.
 
