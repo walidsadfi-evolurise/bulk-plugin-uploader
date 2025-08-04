@@ -1,0 +1,80 @@
+:root {
+    --primary:   #1e88e5;
+    --secondary: #26a69a;
+    --bg-light:  #f4f6f8;
+    --bg-dark:   #ffffff;
+    --text:      #333;
+    --success:   #43a047;
+    --error:     #e53935;
+    --radius:    8px;
+    --transition:0.3s;
+  }
+  
+  body .wrap {
+    background: var(--bg-light);
+    padding: 24px;
+    border-radius: var(--radius);
+    font-family: "Segoe UI", Roboto, sans-serif;
+    color: var(--text);
+  }
+  span.upload-text {
+    margin: 20px;
+}
+  .dropzone {
+    border: 2px dashed var(--primary);
+    background: rgba(30,136,229,0.1);
+    border-radius: var(--radius);
+    padding: 60px;
+    text-align: center;
+    transition: background var(--transition), border-color var(--transition);
+  }
+  .dropzone.dragover {
+    background: rgba(38,166,154,0.1);
+    border-color: var(--secondary);
+  }
+  
+  .buttons { margin: 16px 0; }
+  .buttons .button {
+    background: linear-gradient(45deg,var(--primary),var(--secondary));
+    border: none;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: var(--radius);
+    font-weight: 600;
+    transition: filter var(--transition), transform var(--transition);
+    margin-right: 8px;
+  }
+  .buttons .button:hover { filter: brightness(1.1); transform: translateY(-2px); }
+  
+  .upload-table {
+    width:100%;
+    border-collapse:collapse;
+    margin-top:16px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .upload-table th {
+    background: var(--primary);
+    color:white;
+    text-transform:uppercase;
+    font-size:0.85em;
+    padding:12px;
+    text-align: left !important;
+  }
+  .upload-table td { padding:12px; border-bottom:1px solid #eee; }
+  .upload-table tr:nth-child(odd) { background: var(--bg-dark); }
+  
+  .progress-bar, .install-bar {
+    width:100%; height:6px; appearance:none;
+    background:rgba(0,0,0,0.1); border-radius:4px; overflow:hidden;
+  }
+  .progress-bar::-webkit-progress-value,
+  .install-bar::-webkit-progress-value { background:var(--secondary); transition:width var(--transition); }
+  .progress-bar::-moz-progress-bar, .install-bar::-moz-progress-bar { background:var(--secondary); transition:width var(--transition); }
+  
+  .status-text { font-weight:500; }
+  
+  @keyframes row-highlight { 0%{background:rgba(38,166,154,0.2);}100%{background:transparent;} }
+  .upload-table tr.success { animation:row-highlight 1s ease-out; }
+  .upload-table tr.error   { animation:row-highlight 1s ease-out; }

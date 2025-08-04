@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulk Plugin Uploader & Activator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-02 15:08+0000\n"
+"PO-Revision-Date: 2025-08-02 19:19+0400\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 3.6\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.3.23\n"
+"X-Domain: bulk-plugin-uploader\n"
+
+#: bulk-plugin-upload.php:117
+msgid "Activate installed plugins"
+msgstr "Activer les plugins installés"
+
+#: bulk-plugin-upload.php:260
+msgid "Activated."
+msgstr "Activé."
+
+#: bulk-plugin-upload.php:251
+#, fuzzy
+msgid "Already active."
+msgstr "Déjà actif."
+
+#: bulk-plugin-upload.php:45 bulk-plugin-upload.php:46
+#, fuzzy
+msgid "Bulk Plugin Upload"
+msgstr "Téléchargement en masse de plugins"
+
+#. Name of the plugin
+#: bulk-plugin-upload.php:89
+#, fuzzy
+msgid "Bulk Plugin Uploader & Activator"
+msgstr "Bulk Plugin Uploader & Activator"
+
+#: bulk-plugin-upload.php:241
+#, fuzzy
+msgid "Directory not found."
+msgstr "Répertoire non trouvé."
+
+#: bulk-plugin-upload.php:93
+#, fuzzy
+msgid "Drag & drop your ZIP files here"
+msgstr "Glissez-déposez vos fichiers ZIP ici"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Drag and drop all your plugin files, then install and activate them with a "
+"single click."
+msgstr ""
+"Glissez-déposez tous vos fichiers de plugins, puis installez-les et activez-"
+"les en un seul clic."
+
+#. Author URI of the plugin
+#, fuzzy
+msgid "https://www.walidsadfi.com/"
+msgstr "https://www.walidsadfi.com/"
+
+#: bulk-plugin-upload.php:108
+msgid "Install & Activate"
+msgstr "Installer et activer"
+
+#: bulk-plugin-upload.php:112
+#, fuzzy
+msgid "Install without activation"
+msgstr "Installation sans activation"
+
+#: bulk-plugin-upload.php:183
+msgid "Installation failed."
+msgstr "Échec de l’installation."
+
+#: bulk-plugin-upload.php:206
+#, fuzzy
+msgid "Installed (not activated)."
+msgstr "Installé (non activé)."
+
+#: bulk-plugin-upload.php:200
+#, fuzzy
+msgid "Installed and activated."
+msgstr "Installé et activé."
+
+#: bulk-plugin-upload.php:138
+#, fuzzy
+msgid "Invalid file upload."
+msgstr "Chargement de fichier non valide."
+
+#: bulk-plugin-upload.php:228
+#, fuzzy
+msgid "No plugins to activate."
+msgstr "Aucun plugin à activer."
+
+#: bulk-plugin-upload.php:133 bulk-plugin-upload.php:224
+#, fuzzy
+msgid "Not authorised."
+msgstr "Non autorisé."
+
+#: bulk-plugin-upload.php:94
+#, fuzzy
+msgid "or click to browse."
+msgstr "ou cliquez sur pour naviguer."
+
+#: bulk-plugin-upload.php:189
+#, fuzzy
+msgid "Plugin installed but unable to activate."
+msgstr "Plugin installé mais impossible à activer."
+
+#: bulk-plugin-upload.php:212
+msgid "Success"
+msgstr "Succès"
+
+#: bulk-plugin-upload.php:168
+msgid "Upload failed."
+msgstr "Échec du téléversement."
+
+#. Author of the plugin
+#, fuzzy
+msgid "Walid Sadfi - Evolurise"
+msgstr "Walid Sadfi - Evolurise"
