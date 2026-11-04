@@ -2,7 +2,7 @@
 /*
 Plugin Name: Bulk Plugin Uploader & Activator
 Description: Drag and drop all your plugin files, then install and activate them with a single click.
-Version:     1.0.0
+Version:     1.0.1
 Author:      Walid Sadfi - Evolurise
 Author URI:  https://www.walidsadfi.com/
 Text Domain: bulk-plugin-uploader
